@@ -33,6 +33,7 @@ def bootstrap():
     """
     print('今天气温 %.2f' % 19.984) # 今天气温 19.98
     print('今天气温 %.2f' % 19.985) # 今天气温 19.98
+    print('今天气温 %.2f' % 19.975) # 今天气温 19.98
     print('今天气温 %.2f' % 19.986) # 今天气温 19.99
     print("loading", end=" ", flush=True)
     time.sleep(3)
