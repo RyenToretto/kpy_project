@@ -1,7 +1,7 @@
 import math
 
 def bootstrap():
-    print('\n\n==== start ===>', sep='', end='\n\n')
+    print(f'\n\n{'*' * 12} start {'*' * 12}', sep='', end='\n\n')
 
     num1 = 2.1
     num2 = 15.256

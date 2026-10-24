@@ -1,5 +1,5 @@
 def bootstrap():
-    print('\n\n==== start ===>', sep='', end='\n\n')
+    print(f'\n\n{'*' * 12} start {'*' * 12}', sep='', end='\n\n')
     year = 2026
 
     # sep 设置分隔符

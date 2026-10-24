@@ -1,5 +1,5 @@
 def bootstrap():
-    print('\n\n==== start ===>', sep='', end='\n\n')
+    print(f'\n\n{'*' * 12} start {'*' * 12}', sep='', end='\n\n')
 
     # 一次创建3个变量，每个变量的值相同
     num1 = num2 = num3 = 3

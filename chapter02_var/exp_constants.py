@@ -1,5 +1,5 @@
 def bootstrap(u_num):
-    print('\n\n==== start ===>', sep='', end='\n\n')
+    print(f'\n\n{'*' * 12} start {'*' * 12}', sep='', end='\n\n')
 
     '''命名标准：
         - 每个单词都使用小写字母
@@ -21,12 +21,10 @@ def bootstrap(u_num):
             - 集合     { 1, 2, 3 }                  无序且不重复的元素集合
             - 字典     { name: 'John', age: 30 }    键值对的集合
     '''
+    print(f'{u_num} 的类型是 {type(u_num)}')  # True
 
     PI = 3.1415926
     print(f'PI = {PI}', type(PI), isinstance(PI, str))           # False
-
-    exp_str = '1234asd' # <class str>
-    print('exp_str', type(exp_str), isinstance(exp_str, str))    # True
 
     exp_num = 56 # <class int>
     print('exp_num', type(exp_num), isinstance(exp_num, int))    # True
@@ -34,7 +32,20 @@ def bootstrap(u_num):
     exp_dou = 7.8 # <class float>
     print('exp_dou', type(exp_dou), isinstance(exp_dou, float))  # True
 
-    print(f'{u_num} 的类型是 {type(u_num)}')  # True
+    empty_str = str() # <class str>
+    empty_str = '' # <class str>
+    print('empty_str', type(empty_str), isinstance(empty_str, str))    # True
+
+    multi_str = '''--->第一行
+    --->第二行
+    ''' # <class str>
+    print(multi_str, type(multi_str), isinstance(multi_str, str))    # True
+
+    exp_str = '1234asd' # <class str>
+    print('exp_str', type(exp_str), isinstance(exp_str, str))    # True
+    print(f'字符串拼接：{exp_str + ' and more'}')
+    print(f'字符串乘法：{'-****-' * 3}; {exp_str * 2}')
+    print(f'转义符：It\'s me.')
 
 if __name__ == '__main__':
     bootstrap(input('请输入一个数字> '))
