@@ -8,7 +8,7 @@
     - <     小于
 """
 def bootstrap():
-    print(f'\n\n{'*' * 12} 算数运算符 {'*' * 12}', sep='', end='\n\n')
+    print(f'\n\n{'*' * 12} 比较运算符 {'*' * 12}', sep='', end='\n\n')
 
     a = 10
     b = 3
