@@ -13,11 +13,11 @@
 | `00_` | 第二章 数据准备（文本分块） | [00_data_prep/00_text_chunking.py](./00_data_prep/00_text_chunking.py) | 定长重叠分块 vs 按句子打包 | ✅ 已完成 |
 | `01_` | 第四章 检索优化（混合检索） | [01_retrieval/00_hybrid_retrieval.py](./01_retrieval/00_hybrid_retrieval.py) | BM25 + 向量相似度 + RRF 融合 | ✅ 已完成 |
 | `02_` | 第六章 RAG 系统评估 | [02_evaluation/00_retrieval_metrics.py](./02_evaluation/00_retrieval_metrics.py) | Recall@K、MRR、命中率 | ✅ 已完成 |
-| `03_` | 第三章 索引构建（向量嵌入、向量库） | 可用 `py-study-generator` 按需生成 | 需要 Embedding 与 Milvus，建议先装依赖 | 📝 待生成 |
-| `04_` | 第四章 Text2SQL、查询重构 | 可用 `py-study-generator` 按需生成 | 自然语言转 SQL（可配合 `01_python_100_days` 的 SQLite） | 📝 待生成 |
-| `05_` | 第八章 项目实战一 | 可用 `py-study-generator` 按需生成 | 把前面模块串成可上线应用 | 📝 待生成 |
+| `03_` | 第三章 索引构建（向量嵌入、向量库） | [03_indexing/00_vector_index.py](./03_indexing/00_vector_index.py) | 哈希嵌入、扁平索引、增删改、元数据过滤（离线版，不依赖 Milvus） | ✅ 已完成 |
+| `04_` | 第四章 Text2SQL、查询重构 | [04_text2sql/00_nl_to_sql.py](./04_text2sql/00_nl_to_sql.py) | 同义词归一化、参数化 SQL、只读白名单安全校验 | ✅ 已完成 |
+| `05_` | 第八章 项目实战一 | [05_project_capstone/00_rag_pipeline.py](./05_project_capstone/00_rag_pipeline.py) | 入库幂等、混合检索（RRF）、带引用回答、Recall@K 评估 | ✅ 已完成 |
 
-**本目录总题数：6**（已完成 3，待生成 3）
+**本目录总题数：6**（已完成 6，待生成 0）
 
 ## 验证
 
