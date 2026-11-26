@@ -2,6 +2,12 @@
 
 Python 3.12 从零到精通的个人学习仓库。语法按 `00_basic/chapter01` 起顺序推进；算法与各学习仓库放在根目录，**按学习阶段递增编号**：第一阶段是 `00_leetcode`，之后依次 `01_`、`02_` ...，按编号从小到大学。
 
+**许可证**: 本仓库原创学习脚本与文档采用 [MIT License](./LICENSE)。
+
+**致谢与参考边界**:
+- [kamyu104/LeetCode-Solutions](https://github.com/kamyu104/LeetCode-Solutions)（MIT）：用作算法模板与复杂度对照；本仓库对应脚本均为 Python 3.12 独立重写，不是原文拷贝。
+- [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master)（《代码随想录》）：吸收其「递归三部曲 / 回溯树层去重 / 动规五部曲」等教学心法与题单优先级；本仓库题解均为独立重写的 Python 3.12 ，不搬运其原文、配图与示例代码。
+
 ## 目录
 
 | 路径 | 阶段 | 内容 |
@@ -40,7 +46,7 @@ Python 3.12 从零到精通的个人学习仓库。语法按 `00_basic/chapter01
 | 11 | ⭐⭐⭐⭐ | [jackfrued/Python-100-Days](https://github.com/jackfrued/python-100-days) | `01_python_100_days` | 中文最经典「从新手到数据库/Web/数据分析/机器学习」100 天路线 | 非常适合把现在 `00_basic/chapter05` 到函数、面向对象、MySQL、Pandas、后端工程的断层完整补齐。 |
 | 12 | ⭐⭐⭐☆ | [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 暂不生成（参考） | 覆盖排序、图论、加密、机器学习的纯 Python 算法百科 | 查某类算法原理实现时极好用，但题库过庞大且缺少面试/业务讲解，只建议当字典翻阅，不要从头硬啃。 |
 | 13 | ⭐⭐⭐☆ | [kamyu104/LeetCode-Solutions](https://github.com/kamyu104/LeetCode-Solutions) | 暂不批量生成（字典参考） | 4115 题 Python/C++ 双语题解库（每周更新、MIT 协议），含 `REFERENCE.md` 复杂度速查表、空间压缩与 BIT/KMP/并查集等紧凑模板 | 适合做 `00_leetcode` 的**模板字典与复杂度标杆**（已吸收其 10 类高频模板与选型表）；但源码偏 Python 2 竞赛风且缺测试/中文教学，不建议直接照抄。 |
-| 14 | ⭐⭐⭐☆ | [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) | 暂不整仓搬运（心法参考） | 《代码随想录》200 题循序刷题攻略，主推递归三部曲、回溯树层去重、动规五部曲（0-1/完全背包遍历顺序） | 适合配合 `00_leetcode` 梳理思维步骤（已吸收其方法论与 84/98/142/236/40/416 核心缺口）；注意原仓无开源 License 且禁止洗稿，仅作阅读参考、切勿直接搬运图文与代码。 |
+| 14 | ⭐⭐⭐☆ | [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) | 心法参考（经作者许可） | 《代码随想录》约 180 题循序刷题攻略，主推递归三部曲、回溯树层去重、动规五部曲 | 本仓库只吸收方法论与题单优先级，题解均为独立重写，不搬运原文/配图/示例代码。 |
 | 15 | ⭐⭐⭐ | [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | 暂不生成（参考） | 英文 30 天步进式教程（基础语法 -> 异常/正则 -> Pandas -> Web/API） | 内容连贯、能顺便练英文技术阅读，但偏早期，中文资料生态不如国内项目友好。 |
 | 16 | ⭐⭐⭐ | [trekhleb/learn-python](https://github.com/trekhleb/learn-python) | 暂不生成（参考） | Python 语法备忘录与带 `assert` 的单元测试卡片 | 适合当速查手册和巩固 `assert` 测试习惯，但偏向语法碎片，做不到完整项目闭环。 |
 
