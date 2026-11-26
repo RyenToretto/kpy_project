@@ -2,7 +2,7 @@
 [主题]: ReAct 智能体循环 (Reason + Act)
 [来源]: datawhalechina/hello-agents 第四章「智能体经典范式构建」
 [难度]: Medium
-[前置知识]: chapter04 (分支)、dict、re 正则、dataclass
+[前置知识]: 00_basic/chapter04 (分支)、dict、re 正则、dataclass
 
 一、主题说明
 ReAct = Thought(思考) -> Action(调用工具) -> Observation(观察结果) 反复循环，直到给出 Final Answer。

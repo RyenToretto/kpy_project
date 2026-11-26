@@ -2,7 +2,7 @@
 [主题]: Reflection 反思循环 (生成 -> 批评 -> 修订)
 [来源]: datawhalechina/hello-agents 第四章「智能体经典范式构建」
 [难度]: Medium
-[前置知识]: chapter04 (分支)、list、函数作为参数
+[前置知识]: 00_basic/chapter04 (分支)、list、函数作为参数
 
 一、主题说明
 Reflection 让 Agent 先写初稿，再由「批评者」按规则挑毛病，最后「修订者」按意见改写，循环直到通过。

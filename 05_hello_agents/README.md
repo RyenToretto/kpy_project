@@ -2,7 +2,7 @@
 
 - **来源**: [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)（推荐度排名 1）
 - **学习目标**: 看懂并手写 ReAct、Reflection 等经典 Agent 范式，再进入框架、MCP、记忆与多智能体。
-- **前置语法**: `chapter04_if_elif_else`、`dict`、`re` 正则、`dataclass`
+- **前置语法**: `00_basic/chapter04_if_elif_else`、`dict`、`re` 正则、`dataclass`
 - **环境**: 本目录脚本只用标准库，**不需要 API Key**，用「规则版假 LLM」模拟模型输出，离线可跑。
 - **许可说明**: 原仓库许可证为非 MIT 协议，以其 `LICENSE` 为准。本目录脚本是自写的简化实现，不是原文拷贝，仅供个人学习。
 

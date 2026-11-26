@@ -1,7 +1,7 @@
 # `00_warmup_basics` | 零基础热身专题
 
 - **学习阶段**: 第 1 阶段（起点）
-- **前置语法**: `chapter01_hello` ~ `chapter05_match`、`00_interview/gaosi`（变量、列表、循环、`if/elif/else`、取余 `%`、切片 `[::-1]`）
+- **前置语法**: `00_basic/chapter01_hello` ~ `00_basic/chapter05_match`、`00_interview/gaosi`（变量、列表、循环、`if/elif/else`、取余 `%`、切片 `[::-1]`）
 - **为什么学它**: 在进入哈希表、双指针等套路之前，先把「遍历列表」「累加变量」「整数取余拆位」「字符串切片反转」练成肌肉记忆。
 
 ## 顺序刷题清单（从 `00_` 开始）

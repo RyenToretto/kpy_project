@@ -2,7 +2,7 @@
 [题目编号]: LeetCode 412. Fizz Buzz
 [难度]: Easy
 [所属专题]: 00_warmup_basics
-[前置知识]: chapter03_sign (`%` 取余)、chapter04_if_elif_else、chapter05_match (`match/case`)
+[前置知识]: 00_basic/chapter03_sign (`%` 取余)、00_basic/chapter04_if_elif_else、00_basic/chapter05_match (`match/case`)
 
 一、题目描述
 给你一个整数 `n`，返回一个长度为 `n` 的字符串列表 `answer`（下标从 1 开始计数）：
@@ -49,7 +49,7 @@ def fizz_buzz_if(n: int) -> list[str]:
 
 
 def fizz_buzz_match(n: int) -> list[str]:
-    """解法二：延续 chapter05_match 与 exp_leap_year_03.py 的元组模式匹配风格。"""
+    """解法二：延续 00_basic/chapter05_match 与 exp_leap_year_03.py 的元组模式匹配风格。"""
     answer: list[str] = []
     for i in range(1, n + 1):
         match (i % 3 == 0, i % 5 == 0):

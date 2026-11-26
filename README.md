@@ -1,12 +1,12 @@
 # kpy_project
 
-Python 3.12 从零到精通的个人学习仓库。语法按 `chapter01` 起顺序推进；算法与各学习仓库放在根目录，**按学习阶段递增编号**：第一阶段是 `00_leetcode`，之后依次 `01_`、`02_` ...，按编号从小到大学。
+Python 3.12 从零到精通的个人学习仓库。语法按 `00_basic/chapter01` 起顺序推进；算法与各学习仓库放在根目录，**按学习阶段递增编号**：第一阶段是 `00_leetcode`，之后依次 `01_`、`02_` ...，按编号从小到大学。
 
 ## 目录
 
 | 路径 | 阶段 | 内容 |
 | --- | --- | --- |
-| `chapter01_hello/` ~ `chapter05_match/` | 语法主线 | 输出、变量、运算符、分支、`match` |
+| `00_basic/chapter01_hello/` ~ `00_basic/chapter05_match/` | 语法主线 | 输出、变量、运算符、分支、`match` |
 | `00_interview/` | 练习 | 面试向小练习（高斯求和、闰年） |
 | [`00_leetcode/`](./00_leetcode/README.md) | 阶段 1 | 算法训练营，**总题数 41**（已完成 35，待生成 6） |
 | [`01_python_100_days/`](./01_python_100_days/README.md) | 阶段 2 | Python-100-Days 中文路线 |
@@ -37,7 +37,7 @@ Python 3.12 从零到精通的个人学习仓库。语法按 `chapter01` 起顺�
 | 8 | ⭐⭐⭐⭐☆ | [microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners) | `06_mcp_beginners` | 微软官方 MCP（Model Context Protocol）入门，含 Python Server/Client 实战 | Cursor、Claude、各类 Agent 生态现在重度依赖 MCP；学会自写 MCP Server，接企业自动化/AI 提效单很有用。 |
 | 9 | ⭐⭐⭐⭐☆ | [wesm/pydata-book](https://github.com/wesm/pydata-book) | `02_pydata_book` | Pandas 作者亲著《利用 Python 进行数据分析》第 3 版官方 Notebook | 数据分析与大数据处理基石：吃透 NumPy 向量化、Pandas 清洗/分组聚合/时间序列，后续转 Spark/Polars 或 AI 数据预处理更轻松。 |
 | 10 | ⭐⭐⭐⭐ | [datawhalechina/llm-universe](https://github.com/datawhalechina/llm-universe) | `03_llm_universe` | 面向小白的大模型 API + 个人知识库 RAG + Streamlit 快速部署 | 门槛最低的 AI 应用入门实战，不要求高深数学，几天就能做出第一个可演示的 AI 知识库副业 Demo。 |
-| 11 | ⭐⭐⭐⭐ | [jackfrued/Python-100-Days](https://github.com/jackfrued/python-100-days) | `01_python_100_days` | 中文最经典「从新手到数据库/Web/数据分析/机器学习」100 天路线 | 非常适合把现在 `chapter05` 到函数、面向对象、MySQL、Pandas、后端工程的断层完整补齐。 |
+| 11 | ⭐⭐⭐⭐ | [jackfrued/Python-100-Days](https://github.com/jackfrued/python-100-days) | `01_python_100_days` | 中文最经典「从新手到数据库/Web/数据分析/机器学习」100 天路线 | 非常适合把现在 `00_basic/chapter05` 到函数、面向对象、MySQL、Pandas、后端工程的断层完整补齐。 |
 | 12 | ⭐⭐⭐☆ | [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 暂不生成（参考） | 覆盖排序、图论、加密、机器学习的纯 Python 算法百科 | 查某类算法原理实现时极好用，但题库过庞大且缺少面试/业务讲解，只建议当字典翻阅，不要从头硬啃。 |
 | 13 | ⭐⭐⭐ | [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | 暂不生成（参考） | 英文 30 天步进式教程（基础语法 -> 异常/正则 -> Pandas -> Web/API） | 内容连贯、能顺便练英文技术阅读，但偏早期，中文资料生态不如国内项目友好。 |
 | 14 | ⭐⭐⭐ | [trekhleb/learn-python](https://github.com/trekhleb/learn-python) | 暂不生成（参考） | Python 语法备忘录与带 `assert` 的单元测试卡片 | 适合当速查手册和巩固 `assert` 测试习惯，但偏向语法碎片，做不到完整项目闭环。 |
@@ -48,7 +48,7 @@ Python 3.12 从零到精通的个人学习仓库。语法按 `chapter01` 起顺�
 
 | 阶段 | 建议周期 | 目录 | 做什么 | 验收标准 |
 | --- | --- | --- | --- | --- |
-| 1. 语法与算法起步 | 第 1 ~ 2 周 | `00_leetcode` | 补完 `chapter06+`：列表、字典、集合、函数、类、异常、文件读写。同步刷 `00_warmup_basics` ~ `02_two_pointers`，每天 1 ~ 2 题，敲一遍并跑通 `assert` | 不看答案写出「两数之和」「移动零」；能说清 `list` 与 `tuple`、`dict` 与 `set` 的区别 |
+| 1. 语法与算法起步 | 第 1 ~ 2 周 | `00_leetcode` | 补完 `00_basic/chapter06+`：列表、字典、集合、函数、类、异常、文件读写。同步刷 `00_warmup_basics` ~ `02_two_pointers`，每天 1 ~ 2 题，敲一遍并跑通 `assert` | 不看答案写出「两数之和」「移动零」；能说清 `list` 与 `tuple`、`dict` 与 `set` 的区别 |
 | 2. 工程与数据底座 | 第 3 ~ 6 周 | `01_python_100_days`、`02_pydata_book` | Python-100-Days 只学 Day21 ~ 45（文件/JSON/数据库），pydata-book 学第 2 ~ 11 章。算法继续推到 `03_sliding_window` ~ `07_binary_tree` | 用 Pandas 完成一份真实 CSV 的清洗、分组聚合和图表；能写出带异常处理的文件读写脚本 |
 | 3. LLM 应用与 RAG | 第 7 ~ 10 周 | `03_llm_universe`、`04_all_in_rag` | 先 `03_llm_universe` 跑通第一个知识库助手，再用 `04_all_in_rag` 补数据切分、向量库、混合检索和评测。算法推到 `08_backtracking` ~ `11_heap_and_trie` | 做出一个能回答自己文档的 RAG Demo，并能用评测集说明「准不准」 |
 | 4. Agent 与 MCP | 第 11 ~ 16 周 | `05_hello_agents`、`06_mcp_beginners`、`07_genai_agents` | 主线学 `05_hello_agents`，配合 `06_mcp_beginners` 自写一个 MCP Server，再从 `07_genai_agents` 挑 3 ~ 5 个案例改造。算法完成 `12_graph` ~ `14_hard_capstones` | 手写一个 ReAct Agent；一个能被 Cursor 调用的 MCP Server |

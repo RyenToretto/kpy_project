@@ -2,7 +2,7 @@
 [题目编号]: LeetCode 9. 回文数 (Palindrome Number)
 [难度]: Easy
 [所属专题]: 00_warmup_basics
-[前置知识]: chapter02_var/exp_str.py (字符串切片反转)、while 循环、`//` 与 `%`
+[前置知识]: 00_basic/chapter02_var/exp_str.py (字符串切片反转)、while 循环、`//` 与 `%`
 
 一、题目描述
 给你一个整数 `x`，如果 `x` 是一个回文整数（正着读和倒着读都一样），返回 `True`；否则返回 `False`。
@@ -35,7 +35,7 @@ from __future__ import annotations
 
 
 def is_palindrome_str(x: int) -> bool:
-    """解法一：结合 chapter02_var/exp_str.py 的切片反转技巧，最简单直观。"""
+    """解法一：结合 00_basic/chapter02_var/exp_str.py 的切片反转技巧，最简单直观。"""
     if x < 0:
         return False
     text = str(x)

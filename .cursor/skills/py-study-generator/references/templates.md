@@ -9,7 +9,7 @@
 [题目编号/主题]: LeetCode XX. 中文标题 (English Title)
 [难度]: Easy / Medium / Hard
 [所属专题]: 01_array_and_hashing
-[前置知识]: chapter02_var (变量/类型) / chapter04_if_elif_else / for 循环 / dict
+[前置知识]: 00_basic/chapter02_var (变量/类型) / 00_basic/chapter04_if_elif_else / for 循环 / dict
 
 一、题目描述
 用小白能看懂的语言复述题意与输入输出示例：
