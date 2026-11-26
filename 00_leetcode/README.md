@@ -40,7 +40,7 @@
 | `02_` | [02_two_pointers](./02_two_pointers/README.md) | Easy -> Medium | 快慢指针、左右夹逼、去重、KMP 字符串匹配 | 内存原地清洗、有序表双路归并、敏感词流式匹配 | ✅ 已就绪 (5题) |
 | `03_` | [03_sliding_window](./03_sliding_window/README.md) | Easy -> Hard | 变长窗口、最小覆盖、正数最短达标窗 | 时序滑窗、Token 窗口、最短缓冲 | ✅ 已就绪 (4题) |
 | `04_` | [04_stack_and_queue](./04_stack_and_queue/README.md) | Easy -> Hard | 括号栈、最小栈、单调栈（线性/环形） | 嵌套上下文、峰值/矩形、环形缓冲 | ✅ 已就绪 (5题) |
-| `05_` | [05_binary_search](./05_binary_search/README.md) | Easy -> Medium | 标准二分边界、旋转数组二分、答案单调二分 | 倒排索引查找、限流阈值与批处理并发寻优 | ✅ 已就绪 (3题) |
+| `05_` | [05_binary_search](./05_binary_search/README.md) | Easy -> Hard | 标准/旋转/答案二分、两有序数组中位数 | 倒排索引、配额寻优、有序分片分位数 | ✅ 已就绪 (4题) |
 | `06_` | [06_linked_list](./06_linked_list/README.md) | Easy -> Hard | 指针重连、判环、删倒数第N、两路/K路归并、LRU/LFU | **缓存、归并、循环引用检测** | ✅ 已就绪 (7题) |
 | `07_` | [07_binary_tree](./07_binary_tree/README.md) | Easy -> Medium | 递归三部曲、BST、LCA、翻转、层序 BFS | 文档树、索引校验、镜像改写 | ✅ 已就绪 (5题) |
 | `08_` | [08_backtracking](./08_backtracking/README.md) | Medium -> Hard | 回溯三部曲、可重复/不可重复组合、N 皇后 | 配置组合、Agent 动作搜索 | ✅ 已就绪 (5题) |
