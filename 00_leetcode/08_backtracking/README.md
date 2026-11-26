@@ -19,3 +19,4 @@
 | `01_` | LeetCode 78. 子集 | Medium | 选与不选 / `start_index` 去重 | [01_lc0078_subsets.py](./01_lc0078_subsets.py) | ✅ 已完成 |
 | `02_` | LeetCode 51. N 皇后 | Hard | 按行回溯 + 列/斜线集合剪枝 | [02_lc0051_n_queens.py](./02_lc0051_n_queens.py) | ✅ 已完成 |
 | `03_` | LeetCode 40. 组合总和 II | Medium | 先排序剪枝 + 树层去重 (`i > start and val == prev`) | [03_lc0040_combination_sum_ii.py](./03_lc0040_combination_sum_ii.py) | ✅ 已完成 |
+| `04_` | LeetCode 39. 组合总和 | Medium | 可无限次选用同一数字（递归传 `i`，对照 LC 40） | [04_lc0039_combination_sum.py](./04_lc0039_combination_sum.py) | ✅ 已完成 |

@@ -14,7 +14,7 @@ Python 3.12 从零到精通的个人学习仓库。语法按 `00_basic/chapter01
 | --- | --- | --- |
 | `00_basic/chapter01_hello/` ~ `00_basic/chapter05_match/` | 语法主线 | 输出、变量、运算符、分支、`match` |
 | `00_interview/` | 练习 | 面试向小练习（高斯求和、闰年） |
-| [`00_leetcode/`](./00_leetcode/README.md) | 阶段 1 | 算法训练营，**总题数 61**（已完成 61，待生成 0） |
+| [`00_leetcode/`](./00_leetcode/README.md) | 阶段 1 | 算法训练营，**总题数 76**（已完成 76，待生成 0） |
 | [`01_python_100_days/`](./01_python_100_days/README.md) | 阶段 2 | Python-100-Days 中文路线 |
 | [`02_pydata_book/`](./02_pydata_book/README.md) | 阶段 2 | 《利用 Python 进行数据分析》 |
 | [`03_llm_universe/`](./03_llm_universe/README.md) | 阶段 3 | 大模型应用开发入门 |

@@ -13,3 +13,5 @@
 | `02_` | LeetCode 23. 合并 K 个升序链表 | Hard | 小顶堆多路归并 `O(N log k)` vs 分治两两归并 | [02_lc0023_merge_k_sorted_lists.py](./02_lc0023_merge_k_sorted_lists.py) | ✅ 已完成 |
 | `03_` | LeetCode 460. LFU 缓存 | Hard | 双哈希 + 频率桶 `OrderedDict` 实现 `O(1)` 淘汰 | [03_lc0460_lfu_cache.py](./03_lc0460_lfu_cache.py) | ✅ 已完成 |
 | `04_` | LeetCode 142. 环形链表 II | Medium | Floyd 快慢指针判环（覆盖 141）+ 同速相遇定入环口 | [04_lc0142_linked_list_cycle_ii.py](./04_lc0142_linked_list_cycle_ii.py) | ✅ 已完成 |
+| `05_` | LeetCode 19. 删除链表的倒数第 N 个结点 | Medium | 快慢指针间距 + 哨兵节点一次扫描 | [05_lc0019_remove_nth_from_end.py](./05_lc0019_remove_nth_from_end.py) | ✅ 已完成 |
+| `06_` | LeetCode 21. 合并两个有序链表 | Easy | 哨兵双指针归并（LC 23 的积木） | [06_lc0021_merge_two_sorted_lists.py](./06_lc0021_merge_two_sorted_lists.py) | ✅ 已完成 |

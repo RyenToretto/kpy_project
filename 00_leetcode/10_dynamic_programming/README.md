@@ -24,3 +24,6 @@
 | `04_` | LeetCode 416. 分割等和子集 | Medium | 0-1 背包一维滚动数组（内层容量**倒序**遍历防重复选） | [04_lc0416_partition_equal_subset_sum.py](./04_lc0416_partition_equal_subset_sum.py) | ✅ 已完成 |
 | `05_` | LeetCode 198. 打家劫舍 | Medium | 相邻互斥一维 DP：`max(不偷, 偷+隔一间)`，可滚动到 O(1) 空间 | [05_lc0198_house_robber.py](./05_lc0198_house_robber.py) | ✅ 已完成 |
 | `06_` | LeetCode 139. 单词拆分 | Medium | 字符串完全背包：`dp[i]` 前缀能否被词典拼接 | [06_lc0139_word_break.py](./06_lc0139_word_break.py) | ✅ 已完成 |
+| `07_` | LeetCode 62. 不同路径 | Medium | 网格路径计数二维/一维 DP | [07_lc0062_unique_paths.py](./07_lc0062_unique_paths.py) | ✅ 已完成 |
+| `08_` | LeetCode 1143. 最长公共子序列 | Medium | LCS 二维字符串 DP（序列对齐核心） | [08_lc1143_longest_common_subsequence.py](./08_lc1143_longest_common_subsequence.py) | ✅ 已完成 |
+| `09_` | LeetCode 518. 零钱兑换 II | Medium | 完全背包求组合数（外层硬币防排列重复） | [09_lc0518_coin_change_ii.py](./09_lc0518_coin_change_ii.py) | ✅ 已完成 |

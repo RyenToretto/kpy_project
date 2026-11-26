@@ -18,3 +18,4 @@
 | `01_` | LeetCode 102. 二叉树的层序遍历 | Medium | `deque` 按层快照 `len(queue)` 模板 | [01_lc0102_binary_tree_level_order_traversal.py](./01_lc0102_binary_tree_level_order_traversal.py) | ✅ 已完成 |
 | `02_` | LeetCode 98. 验证二叉搜索树 | Medium | 上下界 `(low, high)` 区间递归 vs 中序严格递增校验 | [02_lc0098_validate_binary_search_tree.py](./02_lc0098_validate_binary_search_tree.py) | ✅ 已完成 |
 | `03_` | LeetCode 236. 二叉树的最近公共祖先 | Medium | 后序递归自底向上汇总返回值 vs 父指针表回溯 | [03_lc0236_lowest_common_ancestor.py](./03_lc0236_lowest_common_ancestor.py) | ✅ 已完成 |
+| `04_` | LeetCode 226. 翻转二叉树 | Easy | 递归/BFS 交换左右子树 | [04_lc0226_invert_binary_tree.py](./04_lc0226_invert_binary_tree.py) | ✅ 已完成 |

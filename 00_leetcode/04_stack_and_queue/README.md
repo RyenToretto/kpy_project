@@ -11,3 +11,5 @@
 | `00_` | LeetCode 20. 有效的括号 | Easy | 栈 + 右括号到左括号字典映射 | [00_lc0020_valid_parentheses.py](./00_lc0020_valid_parentheses.py) | ✅ 已完成 |
 | `01_` | LeetCode 739. 每日温度 | Medium | 单调递减栈存下标 | [01_lc0739_daily_temperatures.py](./01_lc0739_daily_temperatures.py) | ✅ 已完成 |
 | `02_` | LeetCode 84. 柱状图中最大的矩形 | Hard | 单调递增栈 + 首尾哨兵 `0`（与 LC 42 接雨水对称双壁） | [02_lc0084_largest_rectangle_in_histogram.py](./02_lc0084_largest_rectangle_in_histogram.py) | ✅ 已完成 |
+| `03_` | LeetCode 155. 最小栈 | Medium | 辅助栈同步维护当前最小值，`get_min` O(1) | [03_lc0155_min_stack.py](./03_lc0155_min_stack.py) | ✅ 已完成 |
+| `04_` | LeetCode 503. 下一个更大元素 II | Medium | 环形数组单调栈（虚拟走两圈 + 下标取模） | [04_lc0503_next_greater_element_ii.py](./04_lc0503_next_greater_element_ii.py) | ✅ 已完成 |

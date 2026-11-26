@@ -13,3 +13,4 @@
 | `02_` | LeetCode 684. 冗余连接 | Medium | 并查集 Union-Find（路径压缩 + 按规模合并） | [02_lc0684_redundant_connection.py](./02_lc0684_redundant_connection.py) | ✅ 已完成 |
 | `03_` | LeetCode 743. 网络延迟时间 | Medium | 堆优化 Dijkstra 带权最短路 vs Bellman-Ford | [03_lc0743_network_delay_time.py](./03_lc0743_network_delay_time.py) | ✅ 已完成 |
 | `04_` | LeetCode 210. 课程表 II | Medium | Kahn 拓扑排序输出学习顺序（207 只判环，本题给执行序） | [04_lc0210_course_schedule_ii.py](./04_lc0210_course_schedule_ii.py) | ✅ 已完成 |
+| `05_` | LeetCode 127. 单词接龙 | Hard | 隐式图 BFS 最短路 + 通配桶加速邻居 | [05_lc0127_word_ladder.py](./05_lc0127_word_ladder.py) | ✅ 已完成 |
