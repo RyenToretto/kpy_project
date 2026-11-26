@@ -12,3 +12,4 @@
 | `01_` | LeetCode 146. LRU 缓存 | Medium | 手写双向链表+哈希 vs `OrderedDict` | [01_lc0146_lru_cache.py](./01_lc0146_lru_cache.py) | ✅ 已完成 |
 | `02_` | LeetCode 23. 合并 K 个升序链表 | Hard | 小顶堆多路归并 `O(N log k)` vs 分治两两归并 | [02_lc0023_merge_k_sorted_lists.py](./02_lc0023_merge_k_sorted_lists.py) | ✅ 已完成 |
 | `03_` | LeetCode 460. LFU 缓存 | Hard | 双哈希 + 频率桶 `OrderedDict` 实现 `O(1)` 淘汰 | [03_lc0460_lfu_cache.py](./03_lc0460_lfu_cache.py) | ✅ 已完成 |
+| `04_` | LeetCode 142. 环形链表 II | Medium | Floyd 快慢指针判环（覆盖 141）+ 同速相遇定入环口 | [04_lc0142_linked_list_cycle_ii.py](./04_lc0142_linked_list_cycle_ii.py) | ✅ 已完成 |

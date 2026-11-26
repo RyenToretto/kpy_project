@@ -1,6 +1,6 @@
 # `00_leetcode` | 从零到精通 Python 算法训练营（Easy -> Medium -> Hard）
 
-**总题数：51**（已完成 51，待生成 0；15 个专题，`00_` 到 `14_`）
+**总题数：57**（已完成 57，待生成 0；15 个专题，`00_` 到 `14_`）
 
 欢迎来到 `00_leetcode`！这套目录专为**小白从零系统刷题、打通 Python 工程底层、并服务大数据 / 数据分析 / RAG / AI Agent / 全栈开发与求职面试**而设计。
 
@@ -39,18 +39,18 @@
 | `01_` | [01_array_and_hashing](./01_array_and_hashing/README.md) | Easy -> Medium | 哈希查找、频次统计、桶去重、前缀和+哈希 | 日志去重、词频统计、区间净增量统计、RAG Top-K 召回 | ✅ 已就绪 (7题) |
 | `02_` | [02_two_pointers](./02_two_pointers/README.md) | Easy -> Medium | 快慢指针、左右夹逼、去重、KMP 字符串匹配 | 内存原地清洗、有序表双路归并、敏感词流式匹配 | ✅ 已就绪 (5题) |
 | `03_` | [03_sliding_window](./03_sliding_window/README.md) | Easy -> Hard | 单调收益、变长窗口、最小覆盖模板 | 时序指标滑窗、Token/上下文窗口切分 | ✅ 已就绪 (3题) |
-| `04_` | [04_stack_and_queue](./04_stack_and_queue/README.md) | Easy -> Medium | 栈括号匹配、单调栈 | JSON/代码括号解析、LLM 工具调用参数校验 | ✅ 已就绪 (2题) |
+| `04_` | [04_stack_and_queue](./04_stack_and_queue/README.md) | Easy -> Hard | 栈括号匹配、单调递减/递增栈 | JSON/代码括号解析、最大可用矩形与 LLM 参数校验 | ✅ 已就绪 (3题) |
 | `05_` | [05_binary_search](./05_binary_search/README.md) | Easy -> Medium | 标准二分边界、旋转数组二分、答案单调二分 | 倒排索引查找、限流阈值与批处理并发寻优 | ✅ 已就绪 (3题) |
-| `06_` | [06_linked_list](./06_linked_list/README.md) | Easy -> Hard | 指针重连、LRU/LFU 缓存、K 路堆归并 | **LRU/LFU 缓存、大数据外部归并、RAG 多路召回融合** | ✅ 已就绪 (4题) |
-| `07_` | [07_binary_tree](./07_binary_tree/README.md) | Easy -> Medium | 递归 DFS、层序 BFS、`deque` | 文档解析树（HTML/AST）、多步树状推理 | ✅ 已就绪 (2题) |
-| `08_` | [08_backtracking](./08_backtracking/README.md) | Medium -> Hard | 递归路径、撤销选择、剪枝 | 组合配置搜索、Agent 动作规划回退 | ✅ 已就绪 (3题) |
+| `06_` | [06_linked_list](./06_linked_list/README.md) | Easy -> Hard | 指针重连、快慢指针判环、LRU/LFU 缓存、K 路堆归并 | **LRU/LFU 缓存、循环引用检测、大数据外部归并** | ✅ 已就绪 (5题) |
+| `07_` | [07_binary_tree](./07_binary_tree/README.md) | Easy -> Medium | 递归三部曲、BST 校验、最近公共祖先、层序 BFS | 文档解析树（HTML/AST）、索引边界校验与上下文归属 | ✅ 已就绪 (4题) |
+| `08_` | [08_backtracking](./08_backtracking/README.md) | Medium -> Hard | 回溯三部曲、树层去重剪枝、排列组合 | 组合配置去重推荐、Agent 动作规划回退 | ✅ 已就绪 (4题) |
 | `09_` | [09_greedy](./09_greedy/README.md) | Medium | 排序 + 区间合并、可达最远边界 | 调度时间窗合并、RAG 文本片段区间融合 | ✅ 已就绪 (2题) |
-| `10_` | [10_dynamic_programming](./10_dynamic_programming/README.md) | Easy -> Hard | 记忆化搜索、背包、编辑距离(含空间压缩)、LIS 二分 | **NLP 文本相似度、拼写纠错、重排序列提取** | ✅ 已就绪 (4题) |
+| `10_` | [10_dynamic_programming](./10_dynamic_programming/README.md) | Easy -> Hard | 动规五部曲、0-1/完全背包、编辑距离(含压缩)、LIS 二分 | **负载均衡切分、NLP 文本相似度、重排序列提取** | ✅ 已就绪 (5题) |
 | `11_` | [11_heap_and_trie](./11_heap_and_trie/README.md) | Medium | 最小堆 Top-K、原地三路快选、字典树 Trie | **海量数据 Top-K、搜索补全/分词词典** | ✅ 已就绪 (2题) |
 | `12_` | [12_graph](./12_graph/README.md) | Medium | 邻接表、Kahn 拓扑排序、网格连通块、并查集、Dijkstra | **LangGraph/Airflow DAG、实体对齐聚类、图谱最短路** | ✅ 已就绪 (4题) |
 | `13_` | [13_bit_and_math](./13_bit_and_math/README.md) | Easy | 异或去偶、位运算压缩 | 布隆过滤器、位图去重、状态压缩 | ✅ 已就绪 (2题) |
 | `14_` | [14_hard_capstones](./14_hard_capstones/README.md) | Hard | 双指针/单调栈/双堆数据流、单调队列、树状数组 BIT | **实时流式滑窗极值、动态前缀统计、数据流中位数** | ✅ 已就绪 (4题) |
-| 合计 | 15 个专题 | Easy -> Hard | — | — | **总题数 51**（已完成 51，待生成 0） |
+| 合计 | 15 个专题 | Easy -> Hard | — | — | **总题数 57**（已完成 57，待生成 0） |
 
 ## 四、一键验证全部题解
 在项目根目录运行下面命令，可一次验证 `00_leetcode` 下的全部 Python 脚本：
