@@ -1,0 +1,12 @@
+# `06_linked_list` | 链表与缓存结构专题
+
+- **学习阶段**: 第 3 阶段
+- **前置语法**: Python 类与对象 `class ListNode`、引用赋值、哨兵节点（Dummy Node）、双向链表 + 哈希表
+- **为什么学它**: 理解「对象引用」如何串联数据，以及 `哈希表 + 双向链表` 如何组合出 `O(1)` 读写的 **LRU 缓存**（大厂系统设计高频题）。
+
+## 顺序刷题清单（从 `00_` 开始）
+
+| 编号 | 题号与名称 | 难度 | 核心技巧 | 本地文件 | 状态 |
+| --- | --- | --- | --- | --- | --- |
+| `00_` | LeetCode 206. 反转链表 | Easy | 迭代三指针 vs 递归反转 | [00_lc0206_reverse_linked_list.py](./00_lc0206_reverse_linked_list.py) | ✅ 已完成 |
+| `01_` | LeetCode 146. LRU 缓存 | Medium | 手写双向链表+哈希 vs `OrderedDict` | [01_lc0146_lru_cache.py](./01_lc0146_lru_cache.py) | ✅ 已完成 |

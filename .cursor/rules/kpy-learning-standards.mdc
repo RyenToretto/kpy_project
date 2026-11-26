@@ -1,0 +1,22 @@
+---
+description: kpy_project Python 3.12 从零到精通学习规范：00_xx 顺序编号、防重名覆盖、多解法注释与自测
+alwaysApply: true
+---
+
+# kpy_project 学习与代码生成规范
+
+## 1. 目录与文件编号（必须从 `00_` 开始）
+- 算法与专项训练目录置于仓库根目录，以 `00_` 命名（如 `00_interview`、`00_leetcode`、`00_pydata_book`）。
+- 专题子目录与题目脚本均按**由易到难、从 `00_` 递增**编号：
+  - 目录：`00_warmup_basics/`、`01_array_and_hashing/` ...
+  - 文件：`00_lc0001_two_sum.py`、`01_lc0217_contains_duplicate.py` ...
+
+## 2. 防重名与防覆盖守则（强制）
+- **禁止与标准库/常用第三方库重名**（例如禁止新建 `math.py`、`random.py`、`json.py`、`string.py`、`types.py`、`typing.py`、`re.py`、`pandas.py`）。
+- **禁止局部变量覆盖内置函数**（例如避免使用 `sum`、`list`、`dict`、`str`、`id`、`type`、`min`、`max`、`len` 作为变量名；累加请用 `total` 或 `acc`）。
+- 代码注释与打印横幅必须与当前文件职责一致，不得残留复制粘贴的旧标题或错误注释。
+
+## 3. 单个学习脚本的标准结构
+- **顶部 Docstring**：题目/主题、难度、前置语法（对应 `chapter01`~`chapter05` 等）、多种解法时间/空间复杂度对比、以及在**大数据 / 数据分析 / RAG / AI Agent / 全栈开发**中的真实用途。
+- **多版本实现**：优先给出「新手直观版」与「最优/Pythonic 进阶版」，全部使用 Python 3.12 类型注解与中文逐行注释。
+- **自测 + `bootstrap()`**：每个脚本必须包含 `run_tests()`（用 `assert` 验证常规与边界用例）和 `bootstrap()` 演示入口，通过 `if __name__ == '__main__': bootstrap()` 可一键直接运行。

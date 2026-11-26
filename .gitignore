@@ -45,6 +45,11 @@ docs/.vitepress/cache/*
 *.sln
 *.sw?
 
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
 # OS files
 Thumbs.db
 
