@@ -12,3 +12,4 @@
 | `01_` | LeetCode 200. 岛屿数量 | Medium | 网格 DFS/BFS 连通块计数 | [`01_lc0200_number_of_islands.py`](./01_lc0200_number_of_islands.py) | ✅ 已完成 |
 | `02_` | LeetCode 684. 冗余连接 | Medium | 并查集 Union-Find（路径压缩 + 按规模合并） | [02_lc0684_redundant_connection.py](./02_lc0684_redundant_connection.py) | ✅ 已完成 |
 | `03_` | LeetCode 743. 网络延迟时间 | Medium | 堆优化 Dijkstra 带权最短路 vs Bellman-Ford | [03_lc0743_network_delay_time.py](./03_lc0743_network_delay_time.py) | ✅ 已完成 |
+| `04_` | LeetCode 210. 课程表 II | Medium | Kahn 拓扑排序输出学习顺序（207 只判环，本题给执行序） | [04_lc0210_course_schedule_ii.py](./04_lc0210_course_schedule_ii.py) | ✅ 已完成 |

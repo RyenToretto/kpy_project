@@ -10,3 +10,4 @@
 | --- | --- | --- | --- | --- | --- |
 | `00_` | LeetCode 56. 合并区间 | Medium | 按区间左端点排序后贪心合并 | [00_lc0056_merge_intervals.py](./00_lc0056_merge_intervals.py) | ✅ 已完成 |
 | `01_` | LeetCode 55. 跳跃游戏 | Medium | 维护当前能到达的最远下标 | [`01_lc0055_jump_game.py`](./01_lc0055_jump_game.py) | ✅ 已完成 |
+| `02_` | LeetCode 53. 最大子数组和 | Medium | Kadane：负贡献丢弃重开，单遍求最大连续和 | [02_lc0053_maximum_subarray.py](./02_lc0053_maximum_subarray.py) | ✅ 已完成 |

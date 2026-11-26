@@ -1,6 +1,6 @@
 # `00_leetcode` | 从零到精通 Python 算法训练营（Easy -> Medium -> Hard）
 
-**总题数：57**（已完成 57，待生成 0；15 个专题，`00_` 到 `14_`）
+**总题数：61**（已完成 61，待生成 0；15 个专题，`00_` 到 `14_`）
 
 欢迎来到 `00_leetcode`！这套目录专为**小白从零系统刷题、打通 Python 工程底层、并服务大数据 / 数据分析 / RAG / AI Agent / 全栈开发与求职面试**而设计。
 
@@ -44,13 +44,13 @@
 | `06_` | [06_linked_list](./06_linked_list/README.md) | Easy -> Hard | 指针重连、快慢指针判环、LRU/LFU 缓存、K 路堆归并 | **LRU/LFU 缓存、循环引用检测、大数据外部归并** | ✅ 已就绪 (5题) |
 | `07_` | [07_binary_tree](./07_binary_tree/README.md) | Easy -> Medium | 递归三部曲、BST 校验、最近公共祖先、层序 BFS | 文档解析树（HTML/AST）、索引边界校验与上下文归属 | ✅ 已就绪 (4题) |
 | `08_` | [08_backtracking](./08_backtracking/README.md) | Medium -> Hard | 回溯三部曲、树层去重剪枝、排列组合 | 组合配置去重推荐、Agent 动作规划回退 | ✅ 已就绪 (4题) |
-| `09_` | [09_greedy](./09_greedy/README.md) | Medium | 排序 + 区间合并、可达最远边界 | 调度时间窗合并、RAG 文本片段区间融合 | ✅ 已就绪 (2题) |
-| `10_` | [10_dynamic_programming](./10_dynamic_programming/README.md) | Easy -> Hard | 动规五部曲、0-1/完全背包、编辑距离(含压缩)、LIS 二分 | **负载均衡切分、NLP 文本相似度、重排序列提取** | ✅ 已就绪 (5题) |
+| `09_` | [09_greedy](./09_greedy/README.md) | Medium | 排序 + 区间合并、可达最远边界、Kadane 最大子段和 | 调度时间窗、时序峰值区间、RAG 片段融合 | ✅ 已就绪 (3题) |
+| `10_` | [10_dynamic_programming](./10_dynamic_programming/README.md) | Easy -> Hard | 动规五部曲、0-1/完全背包、打家劫舍、单词拆分、编辑距离、LIS | **负载均衡、分词匹配、NLP 相似度、重排序列** | ✅ 已就绪 (7题) |
 | `11_` | [11_heap_and_trie](./11_heap_and_trie/README.md) | Medium | 最小堆 Top-K、原地三路快选、字典树 Trie | **海量数据 Top-K、搜索补全/分词词典** | ✅ 已就绪 (2题) |
-| `12_` | [12_graph](./12_graph/README.md) | Medium | 邻接表、Kahn 拓扑排序、网格连通块、并查集、Dijkstra | **LangGraph/Airflow DAG、实体对齐聚类、图谱最短路** | ✅ 已就绪 (4题) |
+| `12_` | [12_graph](./12_graph/README.md) | Medium | 邻接表、拓扑判环/出序、网格连通块、并查集、Dijkstra | **LangGraph/Airflow 执行序、实体对齐、图谱最短路** | ✅ 已就绪 (5题) |
 | `13_` | [13_bit_and_math](./13_bit_and_math/README.md) | Easy | 异或去偶、位运算压缩 | 布隆过滤器、位图去重、状态压缩 | ✅ 已就绪 (2题) |
 | `14_` | [14_hard_capstones](./14_hard_capstones/README.md) | Hard | 双指针/单调栈/双堆数据流、单调队列、树状数组 BIT | **实时流式滑窗极值、动态前缀统计、数据流中位数** | ✅ 已就绪 (4题) |
-| 合计 | 15 个专题 | Easy -> Hard | — | — | **总题数 57**（已完成 57，待生成 0） |
+| 合计 | 15 个专题 | Easy -> Hard | — | — | **总题数 61**（已完成 61，待生成 0） |
 
 ## 四、一键验证全部题解
 在项目根目录运行下面命令，可一次验证 `00_leetcode` 下的全部 Python 脚本：

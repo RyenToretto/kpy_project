@@ -22,3 +22,5 @@
 | `02_` | LeetCode 72. 编辑距离 | Medium/Hard | 二维字符串 DP + 滚动数组 `O(min(m,n))` 空间压缩 | [02_lc0072_edit_distance.py](./02_lc0072_edit_distance.py) | ✅ 已完成 |
 | `03_` | LeetCode 300. 最长递增子序列 (LIS) | Medium | `O(n^2)` DP vs `bisect_left` 贪心二分 `O(n log n)` | [03_lc0300_longest_increasing_subsequence.py](./03_lc0300_longest_increasing_subsequence.py) | ✅ 已完成 |
 | `04_` | LeetCode 416. 分割等和子集 | Medium | 0-1 背包一维滚动数组（内层容量**倒序**遍历防重复选） | [04_lc0416_partition_equal_subset_sum.py](./04_lc0416_partition_equal_subset_sum.py) | ✅ 已完成 |
+| `05_` | LeetCode 198. 打家劫舍 | Medium | 相邻互斥一维 DP：`max(不偷, 偷+隔一间)`，可滚动到 O(1) 空间 | [05_lc0198_house_robber.py](./05_lc0198_house_robber.py) | ✅ 已完成 |
+| `06_` | LeetCode 139. 单词拆分 | Medium | 字符串完全背包：`dp[i]` 前缀能否被词典拼接 | [06_lc0139_word_break.py](./06_lc0139_word_break.py) | ✅ 已完成 |
