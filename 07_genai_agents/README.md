@@ -12,10 +12,10 @@
 | --- | --- | --- | --- | --- |
 | `00_` | 单 Agent 工具调用 | [00_single_agent/00_tool_calling_router.py](./00_single_agent/00_tool_calling_router.py) | JSON 工具调用、参数校验、报错后自我纠正重试 | ✅ 已完成 |
 | `01_` | 多 Agent 协作 | [01_multi_agent/00_pipeline_agents.py](./01_multi_agent/00_pipeline_agents.py) | 研究员 -> 写手 -> 审稿人流水线，审稿不通过则返工 | ✅ 已完成 |
-| `02_` | 带记忆的对话 Agent | 可用 `py-study-generator` 按需生成 | 对话历史、摘要压缩 | 📝 待生成 |
-| `03_` | 客服 / 研报等行业案例 | 可用 `py-study-generator` 按需生成 | 选 3 ~ 5 个案例改造成作品集 | 📝 待生成 |
+| `02_` | 带记忆的对话 Agent | [02_memory_chat/00_memory_summary.py](./02_memory_chat/00_memory_summary.py) | 滑动窗口记忆、摘要压缩、关键词回忆 | ✅ 已完成 |
+| `03_` | 客服 / 研报等行业案例 | [03_industry_cases/00_customer_service_triage.py](./03_industry_cases/00_customer_service_triage.py)、[03_industry_cases/01_research_report_digest.py](./03_industry_cases/01_research_report_digest.py) | 意图分流与模板回复、时间线与正负面打分提纲 | ✅ 已完成（2 个案例，可按需继续改造） |
 
-**本目录总题数：4**（已完成 2，待生成 2）
+**本目录总题数：4**（已完成 4，待生成 0）
 
 ## 验证
 
