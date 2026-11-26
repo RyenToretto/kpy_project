@@ -9,5 +9,5 @@
 | 编号 | 题号与名称 | 难度 | 核心技巧 | 本地文件 | 状态 |
 | --- | --- | --- | --- | --- | --- |
 | `00_` | LeetCode 46. 全排列 | Medium | `path` + `used` 标记 + `path.copy()` 快照 | [00_lc0046_permutations.py](./00_lc0046_permutations.py) | ✅ 已完成 |
-| `01_` | LeetCode 78. 子集 | Medium | 选与不选 / `start_index` 去重 | 可用 `py-study-generator` 按需生成 | 📝 待生成 |
-| `02_` | LeetCode 51. N 皇后 | Hard | 按行回溯 + 列/斜线集合剪枝 | 可用 `py-study-generator` 按需生成 | 📝 待生成 |
+| `01_` | LeetCode 78. 子集 | Medium | 选与不选 / `start_index` 去重 | [01_lc0078_subsets.py](./01_lc0078_subsets.py) | ✅ 已完成 |
+| `02_` | LeetCode 51. N 皇后 | Hard | 按行回溯 + 列/斜线集合剪枝 | [02_lc0051_n_queens.py](./02_lc0051_n_queens.py) | ✅ 已完成 |

@@ -9,4 +9,4 @@
 | 编号 | 题号与名称 | 难度 | 核心技巧 | 本地文件 | 状态 |
 | --- | --- | --- | --- | --- | --- |
 | `00_` | LeetCode 136. 只出现一次的数字 | Easy | 异或 `a ^ a == 0` 与 `a ^ 0 == a` | [00_lc0136_single_number.py](./00_lc0136_single_number.py) | ✅ 已完成 |
-| `01_` | LeetCode 191. 位 1 的个数 | Easy | `n & (n - 1)` 消掉最低位 1 | 可用 `py-study-generator` 按需生成 | 📝 待生成 |
+| `01_` | LeetCode 191. 位 1 的个数 | Easy | `n & (n - 1)` 消掉最低位 1 | [`01_lc0191_number_of_1_bits.py`](./01_lc0191_number_of_1_bits.py) | ✅ 已完成 |

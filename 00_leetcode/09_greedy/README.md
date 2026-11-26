@@ -9,4 +9,4 @@
 | 编号 | 题号与名称 | 难度 | 核心技巧 | 本地文件 | 状态 |
 | --- | --- | --- | --- | --- | --- |
 | `00_` | LeetCode 56. 合并区间 | Medium | 按区间左端点排序后贪心合并 | [00_lc0056_merge_intervals.py](./00_lc0056_merge_intervals.py) | ✅ 已完成 |
-| `01_` | LeetCode 55. 跳跃游戏 | Medium | 维护当前能到达的最远下标 | 可用 `py-study-generator` 按需生成 | 📝 待生成 |
+| `01_` | LeetCode 55. 跳跃游戏 | Medium | 维护当前能到达的最远下标 | [`01_lc0055_jump_game.py`](./01_lc0055_jump_game.py) | ✅ 已完成 |

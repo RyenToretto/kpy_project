@@ -15,4 +15,4 @@
 | `00_` | LeetCode 283. 移动零 | Easy | 同向快慢指针原地交换 | [00_lc0283_move_zeroes.py](./00_lc0283_move_zeroes.py) | ✅ 已完成 |
 | `01_` | LeetCode 125. 验证回文串 | Easy | 左右双指针 + `isalnum()` 跳过符号 | [01_lc0125_valid_palindrome.py](./01_lc0125_valid_palindrome.py) | ✅ 已完成 |
 | `02_` | LeetCode 15. 三数之和 | Medium | 排序 + 固定一位 + 左右双指针 + 三重去重 | [02_lc0015_three_sum.py](./02_lc0015_three_sum.py) | ✅ 已完成 |
-| `03_` | LeetCode 11. 盛最多水的容器 | Medium | 左右双指针贪心收缩短板 | 可用 `py-study-generator` 按需生成 | 📝 待生成 |
+| `03_` | LeetCode 11. 盛最多水的容器 | Medium | 左右双指针贪心收缩短板 | [`03_lc0011_container_with_most_water.py`](./03_lc0011_container_with_most_water.py) | ✅ 已完成 |

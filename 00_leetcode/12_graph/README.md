@@ -9,4 +9,4 @@
 | 编号 | 题号与名称 | 难度 | 核心技巧 | 本地文件 | 状态 |
 | --- | --- | --- | --- | --- | --- |
 | `00_` | LeetCode 207. 课程表 | Medium | Kahn 队列拓扑排序检测有向环 | [00_lc0207_course_schedule.py](./00_lc0207_course_schedule.py) | ✅ 已完成 |
-| `01_` | LeetCode 200. 岛屿数量 | Medium | 网格 DFS/BFS 连通块计数 | 可用 `py-study-generator` 按需生成 | 📝 待生成 |
+| `01_` | LeetCode 200. 岛屿数量 | Medium | 网格 DFS/BFS 连通块计数 | [`01_lc0200_number_of_islands.py`](./01_lc0200_number_of_islands.py) | ✅ 已完成 |
