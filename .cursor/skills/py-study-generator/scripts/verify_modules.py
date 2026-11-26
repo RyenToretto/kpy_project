@@ -51,5 +51,10 @@ def verify_directory(target_dir: Path) -> int:
 
 
 if __name__ == '__main__':
-    target = Path(sys.argv[1]) if len(sys.argv) > 1 else Path('00_leetcode')
-    raise SystemExit(verify_directory(target))
+    # 支持一次传入多个目录：verify_modules.py 00_leetcode 00_hello_agents ...
+    targets = [Path(arg) for arg in sys.argv[1:]] or [Path('00_leetcode')]
+    exit_code = 0
+    for target in targets:
+        print(f'\n===== 验证目录: {target} =====')
+        exit_code = max(exit_code, verify_directory(target))
+    raise SystemExit(exit_code)
