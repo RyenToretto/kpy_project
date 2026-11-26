@@ -2,8 +2,8 @@
 name: py-study-generator
 description: >-
   Generate structured Python 3.12 learning modules for kpy_project, including
-  00_leetcode algorithm lessons and sibling 00_xxx GitHub study modules from
-  beginner to mastery. Produces 00_xx numbered directories and files, multiple
+  00_leetcode algorithm lessons and stage-numbered NN_xxx GitHub study modules
+  (01_, 02_, ...) from beginner to mastery. Produces 00_xx numbered directories and files, multiple
   annotated solutions, complexity comparisons, real-world AI/data engineering
   connections, and runnable assert tests. Use when adding LeetCode problems,
   expanding a 00_leetcode topic, creating a new 00_xxx learning repository
@@ -18,7 +18,7 @@ Generate beginner-friendly yet production-grade Python 3.12 learning files align
 
 1. **Determine the target track**:
    - **Adding to `00_leetcode/`** -> Read [leetcode-roadmap.md](references/leetcode-roadmap.md) to pick the right `00_xx` topic folder and the next `00_` index (ordered Easy -> Medium -> Hard).
-   - **Adding a sibling `00_xxx/` module** (e.g., `00_pydata_book`, `00_all_in_rag`, `00_hello_agents`) -> Follow the same `00_xx` chapter + `00_xx` lesson numbering inside `<repo-root>/00_<topic>/`.
+   - **Adding a stage module** (e.g., `02_pydata_book`, `04_all_in_rag`, `05_hello_agents`) -> Use the stage number from the learning roadmap in the root `README.md`. The directory is `<repo-root>/NN_<repo_slug>/`, and the chapter/lesson numbering inside it starts again at `00_`.
 2. **Read the code template**:
    - Load [templates.md](references/templates.md) before writing `.py` or `README.md` files.
 3. **Author with strict safety & clarity rules**:

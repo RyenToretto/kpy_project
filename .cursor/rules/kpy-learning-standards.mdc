@@ -6,7 +6,8 @@ alwaysApply: true
 # kpy_project 学习与代码生成规范
 
 ## 1. 目录与文件编号（必须从 `00_` 开始）
-- 算法与专项训练目录置于仓库根目录，以 `00_` 命名（如 `00_interview`、`00_leetcode`、`00_pydata_book`）。
+- 学习阶段目录置于仓库根目录，**按学习阶段递增编号**：第一阶段为 `00_leetcode`，之后每个仓库从 `01_` 起按学习顺序递增，如 `01_python_100_days`、`02_pydata_book`、`03_llm_universe`。
+- 同一阶段内的多个仓库也按学习顺序继续递增，不重复编号。`00_interview` 为练习目录，保持不变。
 - 专题子目录与题目脚本均按**由易到难、从 `00_` 递增**编号：
   - 目录：`00_warmup_basics/`、`01_array_and_hashing/` ...
   - 文件：`00_lc0001_two_sum.py`、`01_lc0217_contains_duplicate.py` ...

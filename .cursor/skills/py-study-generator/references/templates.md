@@ -85,6 +85,6 @@ if __name__ == '__main__':
 ## 3. 兄弟学习仓库 `00_xxx` 模块模板
 
 当把外部 GitHub 开源项目（如 `00_pydata_book`、`00_all_in_rag`、`00_hello_agents`）纳入本仓库时：
-- 目录统一放在仓库根目录：`00_<repo_slug>/`
+- 目录统一放在仓库根目录：`NN_<repo_slug>/`，`NN` 为学习路线中的阶段编号（`00_leetcode` 为第一阶段，之后 `01_`、`02_` ... 递增）。
 - 顶层放置 `README.md`（记录原仓库链接、学习目标、环境依赖、章节映射）
 - 子目录与脚本从 `00_` 开始顺序编号：`00_setup/` -> `01_xxx/` -> `02_xxx/`，每个独立 `.py` 依然保留 `Docstring` + 中文注释 + `run_tests()` + `bootstrap()`。

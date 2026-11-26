@@ -1,4 +1,4 @@
-# `00_hello_agents` | 从零构建智能体
+# `05_hello_agents` | 从零构建智能体
 
 - **来源**: [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)（推荐度排名 1）
 - **学习目标**: 看懂并手写 ReAct、Reflection 等经典 Agent 范式，再进入框架、MCP、记忆与多智能体。
@@ -15,12 +15,12 @@
 | `02_` | 第四章 Plan-and-Solve | 可用 `py-study-generator` 按需生成 | 先规划步骤再逐步执行 | 📝 待生成 |
 | `03_` | 第六、七章 框架开发 | 可用 `py-study-generator` 按需生成 | LangGraph / 自研框架 | 📝 待生成 |
 | `04_` | 第八、九章 记忆与上下文工程 | 可用 `py-study-generator` 按需生成 | 记忆系统、上下文裁剪 | 📝 待生成 |
-| `05_` | 第十章 智能体通信协议 | 可用 `py-study-generator` 按需生成 | MCP / A2A（可配合 `00_mcp_beginners`） | 📝 待生成 |
+| `05_` | 第十章 智能体通信协议 | 可用 `py-study-generator` 按需生成 | MCP / A2A（可配合 `06_mcp_beginners`） | 📝 待生成 |
 
 **本目录总题数：6**（已完成 2，待生成 4）
 
 ## 验证
 
 ```bash
-.venv/bin/python .cursor/skills/py-study-generator/scripts/verify_modules.py 00_hello_agents
+.venv/bin/python .cursor/skills/py-study-generator/scripts/verify_modules.py 05_hello_agents
 ```
