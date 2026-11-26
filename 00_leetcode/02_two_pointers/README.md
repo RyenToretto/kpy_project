@@ -16,3 +16,4 @@
 | `01_` | LeetCode 125. 验证回文串 | Easy | 左右双指针 + `isalnum()` 跳过符号 | [01_lc0125_valid_palindrome.py](./01_lc0125_valid_palindrome.py) | ✅ 已完成 |
 | `02_` | LeetCode 15. 三数之和 | Medium | 排序 + 固定一位 + 左右双指针 + 三重去重 | [02_lc0015_three_sum.py](./02_lc0015_three_sum.py) | ✅ 已完成 |
 | `03_` | LeetCode 11. 盛最多水的容器 | Medium | 左右双指针贪心收缩短板 | [`03_lc0011_container_with_most_water.py`](./03_lc0011_container_with_most_water.py) | ✅ 已完成 |
+| `04_` | LeetCode 28. 找出字符串中第一个匹配项的下标 | Medium | KMP 前缀表 (LPS) 避免主串指针回退，`O(n+m)` | [04_lc0028_find_first_occurrence_kmp.py](./04_lc0028_find_first_occurrence_kmp.py) | ✅ 已完成 |

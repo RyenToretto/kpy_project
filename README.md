@@ -8,7 +8,7 @@ Python 3.12 从零到精通的个人学习仓库。语法按 `00_basic/chapter01
 | --- | --- | --- |
 | `00_basic/chapter01_hello/` ~ `00_basic/chapter05_match/` | 语法主线 | 输出、变量、运算符、分支、`match` |
 | `00_interview/` | 练习 | 面试向小练习（高斯求和、闰年） |
-| [`00_leetcode/`](./00_leetcode/README.md) | 阶段 1 | 算法训练营，**总题数 41**（已完成 41，待生成 0） |
+| [`00_leetcode/`](./00_leetcode/README.md) | 阶段 1 | 算法训练营，**总题数 51**（已完成 51，待生成 0） |
 | [`01_python_100_days/`](./01_python_100_days/README.md) | 阶段 2 | Python-100-Days 中文路线 |
 | [`02_pydata_book/`](./02_pydata_book/README.md) | 阶段 2 | 《利用 Python 进行数据分析》 |
 | [`03_llm_universe/`](./03_llm_universe/README.md) | 阶段 3 | 大模型应用开发入门 |
@@ -39,8 +39,9 @@ Python 3.12 从零到精通的个人学习仓库。语法按 `00_basic/chapter01
 | 10 | ⭐⭐⭐⭐ | [datawhalechina/llm-universe](https://github.com/datawhalechina/llm-universe) | `03_llm_universe` | 面向小白的大模型 API + 个人知识库 RAG + Streamlit 快速部署 | 门槛最低的 AI 应用入门实战，不要求高深数学，几天就能做出第一个可演示的 AI 知识库副业 Demo。 |
 | 11 | ⭐⭐⭐⭐ | [jackfrued/Python-100-Days](https://github.com/jackfrued/python-100-days) | `01_python_100_days` | 中文最经典「从新手到数据库/Web/数据分析/机器学习」100 天路线 | 非常适合把现在 `00_basic/chapter05` 到函数、面向对象、MySQL、Pandas、后端工程的断层完整补齐。 |
 | 12 | ⭐⭐⭐☆ | [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 暂不生成（参考） | 覆盖排序、图论、加密、机器学习的纯 Python 算法百科 | 查某类算法原理实现时极好用，但题库过庞大且缺少面试/业务讲解，只建议当字典翻阅，不要从头硬啃。 |
-| 13 | ⭐⭐⭐ | [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | 暂不生成（参考） | 英文 30 天步进式教程（基础语法 -> 异常/正则 -> Pandas -> Web/API） | 内容连贯、能顺便练英文技术阅读，但偏早期，中文资料生态不如国内项目友好。 |
-| 14 | ⭐⭐⭐ | [trekhleb/learn-python](https://github.com/trekhleb/learn-python) | 暂不生成（参考） | Python 语法备忘录与带 `assert` 的单元测试卡片 | 适合当速查手册和巩固 `assert` 测试习惯，但偏向语法碎片，做不到完整项目闭环。 |
+| 13 | ⭐⭐⭐☆ | [kamyu104/LeetCode-Solutions](https://github.com/kamyu104/LeetCode-Solutions) | 暂不批量生成（字典参考） | 4115 题 Python/C++ 双语题解库（每周更新、MIT 协议），含 `REFERENCE.md` 复杂度速查表、空间压缩与 BIT/KMP/并查集等紧凑模板 | 适合做 `00_leetcode` 的**模板字典与复杂度标杆**（已吸收其 10 类高频模板与选型表）；但源码偏 Python 2 竞赛风且缺测试/中文教学，不建议直接照抄。 |
+| 14 | ⭐⭐⭐ | [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | 暂不生成（参考） | 英文 30 天步进式教程（基础语法 -> 异常/正则 -> Pandas -> Web/API） | 内容连贯、能顺便练英文技术阅读，但偏早期，中文资料生态不如国内项目友好。 |
+| 15 | ⭐⭐⭐ | [trekhleb/learn-python](https://github.com/trekhleb/learn-python) | 暂不生成（参考） | Python 语法备忘录与带 `assert` 的单元测试卡片 | 适合当速查手册和巩固 `assert` 测试习惯，但偏向语法碎片，做不到完整项目闭环。 |
 
 ## 二、阶段路线（学习顺序）
 

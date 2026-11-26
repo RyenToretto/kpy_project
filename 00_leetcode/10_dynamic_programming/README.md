@@ -10,4 +10,5 @@
 | --- | --- | --- | --- | --- | --- |
 | `00_` | LeetCode 70. 爬楼梯 | Easy | 记忆化搜索 -> DP 数组 -> O(1) 滚动变量 | [00_lc0070_climbing_stairs.py](./00_lc0070_climbing_stairs.py) | ✅ 已完成 |
 | `01_` | LeetCode 322. 零钱兑换 | Medium | 完全背包模型 `dp[x] = min(dp[x], dp[x-coin]+1)` | [01_lc0322_coin_change.py](./01_lc0322_coin_change.py) | ✅ 已完成 |
-| `02_` | LeetCode 72. 编辑距离 | Medium/Hard | 二维字符串 DP（增删改转移，NLP 核心） | [02_lc0072_edit_distance.py](./02_lc0072_edit_distance.py) | ✅ 已完成 |
+| `02_` | LeetCode 72. 编辑距离 | Medium/Hard | 二维字符串 DP + 滚动数组 `O(min(m,n))` 空间压缩 | [02_lc0072_edit_distance.py](./02_lc0072_edit_distance.py) | ✅ 已完成 |
+| `03_` | LeetCode 300. 最长递增子序列 (LIS) | Medium | `O(n^2)` DP vs `bisect_left` 贪心二分 `O(n log n)` | [03_lc0300_longest_increasing_subsequence.py](./03_lc0300_longest_increasing_subsequence.py) | ✅ 已完成 |

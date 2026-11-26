@@ -17,10 +17,14 @@
    - 思路: 维护一个最多 `k` 个元素的小顶堆。每来一个新数就进堆；一旦超过 `k` 个，就把最小（最弱）的堆顶弹出。最后堆顶剩下的正好是「前 k 大里面最小的那一个」，即第 `k` 大！
    - 时间复杂度: O(n log k)
    - 空间复杂度: O(k)（哪怕有 10 亿条日志流式过来，内存也只占 k 个！）
-2. 解法二（三路划分快速选择 Quickselect - 均摊 O(n)）:
+2. 解法二（三路划分快速选择 Quickselect 简洁版 - 期望 O(n)）:
    - 思路: 随机选基准 `pivot`，把数组分成 `> pivot`、`== pivot`、`< pivot` 三段（三路划分可以完美防止大量重复元素退化成 O(n^2)！），只去包含第 k 大的那一段继续递归。
    - 时间复杂度: 期望 O(n)
-   - 空间复杂度: O(n)（简化可读版；或原地双指针 O(log n)）
+   - 空间复杂度: O(n)（列表推导新建切片，易读但不算原地）
+3. 解法三（原地三路划分 Quickselect 极限优化版 - 期望 O(n) + O(1) 空间）:
+   - 思路: 参考荷兰国旗三指针 (`lt`, `mid`, `gt`) 在原数组上直接切分三段，并用 `while` 循环代替尾递归，不额外申请切片内存。
+   - 时间复杂度: 期望 O(n)
+   - 空间复杂度: O(1)
 
 三、工程与 AI/大数据实战映射
 - 大数据 Top-K 算子: Spark / Flink 中求延迟 P99、活跃用户 Top-K，不可能把 TB 级数据全拉进单机排序，而是各个分片用容量为 K 的堆各自筛出 Top-K 后再归并！
@@ -59,6 +63,37 @@ def find_kth_largest_quickselect(nums: list[int], k: int) -> int:
     return quickselect(nums, k)
 
 
+def find_kth_largest_quickselect_inplace(nums: list[int], k: int) -> int:
+    """解法三：原地三路划分快速选择（循环版），期望时间 O(n)、额外空间 O(1)。"""
+    arr = nums[:]  # 复制一份防止污染外部传入的测试用例列表
+    target_idx = k - 1
+    left, right = 0, len(arr) - 1
+
+    while left <= right:
+        pivot = arr[random.randint(left, right)]
+        # 荷兰国旗三路划分（降序）：[left..lt-1] > pivot, [lt..gt] == pivot, [gt+1..right] < pivot
+        lt, mid, gt = left, left, right
+        while mid <= gt:
+            if arr[mid] > pivot:
+                arr[lt], arr[mid] = arr[mid], arr[lt]
+                lt += 1
+                mid += 1
+            elif arr[mid] < pivot:
+                arr[mid], arr[gt] = arr[gt], arr[mid]
+                gt -= 1
+            else:
+                mid += 1
+
+        if lt <= target_idx <= gt:
+            return arr[target_idx]
+        if target_idx < lt:
+            right = lt - 1
+        else:
+            left = gt + 1
+
+    raise ValueError(f'非法 k={k}')
+
+
 def run_tests() -> None:
     """自动化断言测试。"""
     cases = [
@@ -66,8 +101,9 @@ def run_tests() -> None:
         ([3, 2, 3, 1, 2, 4, 5, 5, 6], 4, 4),
         ([1], 1, 1),
         ([5] * 200, 100, 5),
+        ([-1, -5, 0, 3, 2], 5, -5),
     ]
-    for solver in (find_kth_largest_heap, find_kth_largest_quickselect):
+    for solver in (find_kth_largest_heap, find_kth_largest_quickselect, find_kth_largest_quickselect_inplace):
         for nums, k, expected in cases:
             assert solver(nums, k) == expected, f'{solver.__name__} 失败: k={k}'
     print('✅ LeetCode 215 所有测试用例通过！')

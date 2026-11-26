@@ -10,3 +10,5 @@
 | --- | --- | --- | --- | --- | --- |
 | `00_` | LeetCode 42. 接雨水 | Hard | 双指针 O(1) 空间 vs 单调栈按行接水 | [00_lc0042_trapping_rain_water.py](./00_lc0042_trapping_rain_water.py) | ✅ 已完成 |
 | `01_` | LeetCode 295. 数据流的中位数 | Hard | 大顶堆 + 小顶堆对顶维护实时中位数 | [01_lc0295_find_median_from_data_stream.py](./01_lc0295_find_median_from_data_stream.py) | ✅ 已完成 |
+| `02_` | LeetCode 239. 滑动窗口最大值 | Hard | 单调递减双端队列 `deque`，均摊 `O(1)` 取窗口极值 | [02_lc0239_sliding_window_maximum.py](./02_lc0239_sliding_window_maximum.py) | ✅ 已完成 |
+| `03_` | LeetCode 307. 区域和检索 - 数组可修改 | Medium/Hard | 树状数组 Fenwick Tree (BIT) `O(log n)` 改查 + `O(n)` 建树 | [03_lc0307_range_sum_mutable_bit.py](./03_lc0307_range_sum_mutable_bit.py) | ✅ 已完成 |

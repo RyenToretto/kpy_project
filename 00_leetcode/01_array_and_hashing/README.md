@@ -19,3 +19,4 @@
 | `03_` | LeetCode 49. 字母异位词分组 | Medium | `defaultdict(list)` + `tuple` 签名键 | [03_lc0049_group_anagrams.py](./03_lc0049_group_anagrams.py) | ✅ 已完成 |
 | `04_` | LeetCode 347. 前 K 个高频元素 | Medium | 最小堆 `O(n log k)` vs 桶排序 `O(n)` | [04_lc0347_top_k_frequent_elements.py](./04_lc0347_top_k_frequent_elements.py) | ✅ 已完成 |
 | `05_` | LeetCode 128. 最长连续序列 | Medium | 集合去重 + 只从序列起点向后扩展 | [05_lc0128_longest_consecutive_sequence.py](./05_lc0128_longest_consecutive_sequence.py) | ✅ 已完成 |
+| `06_` | LeetCode 560. 和为 K 的子数组 | Medium | 前缀和 + 哈希表记录历史前缀频次（支持负数） | [06_lc0560_subarray_sum_equals_k.py](./06_lc0560_subarray_sum_equals_k.py) | ✅ 已完成 |
